@@ -7,6 +7,14 @@ return {
     spell = false, -- sets vim.opt.spell
     signcolumn = "auto", -- sets vim.opt.signcolumn to auto
     wrap = false, -- sets vim.opt.wrap
+
+    -- My stuff
+    guifont = "Jetbrains Mono:h16",
+    tabstop = 4,
+    shiftwidth = 4,
+    smartcase = true,
+    expandtab = false,
+    cindent = false,
   },
   g = {
     mapleader = " ", -- sets vim.g.mapleader
@@ -17,6 +25,9 @@ return {
     icons_enabled = true, -- disable icons in the UI (disable if no nerd font is available, requires :PackerSync after changing)
     ui_notifications_enabled = true, -- disable notifications when toggling UI elements
     resession_enabled = false, -- enable experimental resession.nvim session management (will be default in AstroNvim v4)
+
+    -- My stuff
+    rust_recommended_style = false,
   },
 }
 -- If you need more control, you can use the function()...end notation
